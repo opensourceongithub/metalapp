@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include metalapp *.css
+recursive-include metalapp *.csv
+recursive-include metalapp *.html
+recursive-include metalapp *.ico
+recursive-include metalapp *.js
+recursive-include metalapp *.json
+recursive-include metalapp *.md
+recursive-include metalapp *.png
+recursive-include metalapp *.py
+recursive-include metalapp *.svg
+recursive-include metalapp *.txt
+recursive-exclude metalapp *.pyc
